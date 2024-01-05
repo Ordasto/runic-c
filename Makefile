@@ -43,7 +43,7 @@ $(BUILD_DIR)/%.cpp.o: %.cpp
 .PHONY: run
 run:
 	make
-	./$(BUILD_DIR)/$(TARGET_EXEC)
+	./$(BUILD_DIR)/$(TARGET_EXEC) 
 
 .PHONY: clean
 clean:
