@@ -1,7 +1,8 @@
 
 #include <stdio.h>
 
-#include <runic_c.h>
+// #include <runic_c.h>
+#include "../include/runic_c.h"
 
 
 
@@ -14,7 +15,7 @@
 int main(int argc, char* argv[]){
 
   int value = 100;
-  printf("this is a test program, %d", val);
+  printf("this is a test program, %d", value);
 
   return 0;
 }
